@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RateHawk is an innovative B2B online booking engine for hotels, air tickets, transfers, and car rentals.">
+    <meta name="keywords" content="B2B, online booking, hotels, air tickets, transfers, car rentals">
+    <meta name="author" content="RateHawk Git">
+    <title>RateHawk - B2B Online Booking</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000; /* مشکی */
+            color: #fff; /* سفید */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .product-box {
+            background: #f7c600; /* زرد */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+            transition: transform 0.2s;
+        }
+        .product-box:hover {
+            transform: scale(1.05);
+        }
+        .logo {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333; /* رنگ عنوان */
+            margin: 10px 0;
+        }
+        p {
+            color: #555; /* رنگ توضیحات */
+            line-height: 1.5;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 15px; /* فاصله بین دکمه‌ها */
+        }
+        .action-button {
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: transform 0.2s;
+            text-decoration: none; /* حذف زیرخط */
+            text-align: center; /* وسط‌چین متن */
+        }
+        .action-button.login {
+            background-color: #007bff; /* آبی */
+            color: #fff; /* سفید */
+        }
+        .action-button.login:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* انیمیشن درخشش */
+        }
+        .action-button.signup {
+            background-color: #28a745; /* سبز */
+            color: #fff; /* سفید */
+        }
+        .action-button.signup:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(40, 167, 69, 0.5); /* انیمیشن درخشش */
+        }
+        .slider {
+            position: relative;
+            margin-top: 20px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .slide {
+            min-width: 100%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .slider img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="product-box">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPOT609Gk0ogRKXtw8t4G3FXgYv-pOtqsTutXNNsqgsTS0EwmxbP0J0yeUlh7qoe8wRf8XbbaGSmth5ofzVt38WwDagGWH5bE1bfF0sW4" alt="لوگو" class="logo">
+    <h2>RateHawk</h2>
+    <p>RateHawk is an innovative B2B online booking engine that offers hotels, air tickets, transfers, and car rentals. It is designed to be the ultimate daily booking tool for travel professionals.</p>
+    
+    <div class="button-container">
+        <a href="https://example.com/login" target="_blank" rel="noreferrer noopener" class="action-button login">Login</a>
+        <a href="https://example.com/signup" target="_blank" rel="noreferrer noopener" class="action-button signup">Sign Up</a>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="https://f.worldota.net/partner/frontend/master/b675598/_next/static/media/macbook.8606f506.webp" alt="تصویر 1"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
